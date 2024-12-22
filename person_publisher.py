@@ -3,8 +3,7 @@
 #This routine will pulish /person_info topic and customize message type beginner_hiwonder::Person
 
 import rospy
-#from beginner_hiwonder.msg import Person
-from Person.msg import Person
+from beginner_hiwonder.msg import Person
 
 def velocity_publisher():
   # Initialize ROS node
