@@ -11,7 +11,7 @@ def velocity_publisher():
   # Create a publisher and publish a topic named /person_info. The message type is
   # beginner_hiwonder::Person and the queue length is 10.
 
-person_info_pub = rospy.Publisher('/person_info', Person, queue_size=10)
+  person_info_pub = rospy.Publisher('/person_info', Person, queue_size=10)
   #set the loop rate
   rate = rospy.Rate(10)
 
